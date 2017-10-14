@@ -1,0 +1,45 @@
+/*********** Element styles ***********/
+body {
+    font: 1em Verdana, Geneva, sans-serif;
+    padding: 0;
+    margin: 5px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*********** Class styles ***********/
+.hidden {
+    display: none;
+}
+
+/*********** Identifier styles ***********/
+#app {
+    margin: 4px;
+    background-color: #bbbbcc;
+}
+
+#app>header {
+    padding: 0 0.5em;
+    font-size: 1.5em;
+    color: whitesmoke;
+    background-color: #000066;
+}
+
+#app>footer {
+    padding: 0.25em;
+    color: whitesmoke;
+    background-color: #0000066;
+}
+
+#main {
+    margin: 1em;
+}
