@@ -27,19 +27,40 @@ button {
     background-color: #bbbbcc;
 }
 
-#app>header {
-    padding: 0 0.5em;
-    font-size: 1.5em;
-    color: whitesmoke;
-    background-color: #000066;
-}
+    #app > header {
+        padding: 0 0.5em;
+        font-size: 1.5em;
+        color: whitesmoke;
+        background-color: #000066;
+    }
 
-#app>footer {
-    padding: 0.25em;
-    color: whitesmoke;
-    background-color: #0000066;
-}
+    #app > footer {
+        padding: 0.25em;
+        color: whitesmoke;
+        background-color: #000066;
+    }
 
 #main {
     margin: 1em;
+}
+
+#add-task label {
+    display: block;
+    font-weight: bold;
+}
+
+#new-task-name {
+    font-size: 1em;
+    display: block;
+    width: 15em;
+}
+
+#task-list {
+    padding: 0;
+}
+
+#task-list li {
+    list-style: none;
+    padding: 0.25em;
+    margin: 0.25em;
 }
